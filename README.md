@@ -5,7 +5,7 @@ Ruby client for In Time shipment tracker and parcel creator
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'in-time-ruby', '0.0.1'
+gem 'in-time-ruby', '0.0.2'
 ```
 
 ...followed with:

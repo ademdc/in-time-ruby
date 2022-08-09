@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['ademdinarevic@gmail.com']
   spec.homepage      = 'https://github.com/ademdc/in-time-ruby'
   spec.license       = 'MIT'
-  spec.summary       = "Ruby client for In Time API"
+  spec.summary       = "Ruby client for InTime API"
   spec.description   = "Ruby client for InTime API"
   spec.require_paths = ['lib']
   spec.files         = Dir.glob("{lib}/**/*", File::FNM_DOTMATCH).reject {|f| File.directory?(f) }
