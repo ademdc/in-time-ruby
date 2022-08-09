@@ -1,2 +1,3 @@
-module InTimeRub  VERSION='0.0.3'
+module InTimeRuby
+  VERSION='0.0.3'
 end
