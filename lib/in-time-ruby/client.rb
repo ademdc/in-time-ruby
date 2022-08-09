@@ -64,7 +64,7 @@ module InTimeRuby
 
     def parse(response)
       success       = (200..308).to_a.include?(response.code.to_i) ? true : false
-      hash_response = response.body.empty? ? response.body : JSON.parse(response.body)
+      hash_response = response.body.empty? ? {} : JSON.parse(response.body)
 
       struct_response.new(success, hash_response)
     end
