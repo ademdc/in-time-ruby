@@ -26,7 +26,7 @@ module InTimeRuby
           verify_ssl: ::OpenSSL::SSL::VERIFY_NONE
         )
       rescue => e
-        return struct_response.new(false, { error: parse(e.response), message: e.message })
+        return parse(e.response)
       end
 
       parse(response)
